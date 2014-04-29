@@ -39,7 +39,7 @@
 	<div class="container">
 
 	<div>
-    <%= form_for :phone_number do |f| %>
+    <%= form_for :phone_number, url: numbers_path do |f| %>
       <p>
         <%= f.label :owner %><br>
         <%= f.text_field :owner %><br>
@@ -53,6 +53,7 @@
       <p>
         <%= f.submit %>
       </p>
+    <% end %>
 	</div>
 
 </div><!-- /.container -->
