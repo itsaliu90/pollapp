@@ -39,7 +39,20 @@
 	<div class="container">
 
 	<div>
-		<h1>Form goes here</h1>
+    <%= form_for :phone_number do |f| %>
+      <p>
+        <%= f.label :owner %><br>
+        <%= f.text_field :owner %><br>
+      </p>
+
+      <p>
+        <%= f.label :number %><br>
+        <%= f.text_field :number %><br>
+      </p>
+
+      <p>
+        <%= f.submit %>
+      </p>
 	</div>
 
 </div><!-- /.container -->
