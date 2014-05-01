@@ -1,5 +1,9 @@
 class NumbersController < ApplicationController
 
+def index
+	@phone_numbers = PhoneNumber.all
+end
+
 def create
 	@phone_number = PhoneNumber.new(phone_number_params)
  
