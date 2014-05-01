@@ -1,9 +1,9 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  number: 1
-  owner: MyString
+  number: 5856629096
+  owner: Alex
 
 two:
-  number: 1
-  owner: MyString
+  number: 8574940307
+  owner: Doug
