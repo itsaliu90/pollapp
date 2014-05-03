@@ -40,14 +40,14 @@
 		<div>
 			<table>
 				<tr>
-					<th>Owner</th>
-					<th>Number</th>
+					<th>Name</th>
+					<th>Phone Number</th>
 				</tr>
 
-				<% @phone_numbers.each do |article| %>
+				<% @users.each do |user| %>
 					<tr>
-						<td><%= article.owner %></td>
-						<td><%= article.number %></td>
+						<td><%= user.name %></td>
+						<td><%= user.phonenumber %></td>
 					</tr>
 				<% end %>
 			</table>
